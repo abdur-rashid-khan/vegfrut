@@ -188,8 +188,8 @@ header .mane_menu .lg_menu .menu_item ul li:hover::after{
 #myNav ul li{
     display: block;
 }
-#logo{
-    max-width: 6rem;
+#logo {
+    max-width: 15rem;
 }
 header .mane_menu .lg_menu .mobile_menu .menu_icon{
     position: absolute;
