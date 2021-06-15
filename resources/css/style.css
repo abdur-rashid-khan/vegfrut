@@ -875,6 +875,10 @@ header .mane_menu .lg_menu #closeBtn {
     #slide_size {
         min-height: 100vh;
     }
+    #seller .row #seller_content .seller_text .seller_icon span:nth-child(1),
+    #seller .row #seller_content .seller_text .seller_icon span:nth-child(2){ 
+        font-size: 1.8rem;
+    }
 }
 @media only screen and (max-width:375px) {
     /* #popup .popup_content .popup_bg {
@@ -886,6 +890,14 @@ header .mane_menu .lg_menu #closeBtn {
     }
     #seller .row #seller_content .seller_text .seller_icon { 
         top: 39%; 
+    } 
+    #seller .row #seller_content .seller_text .seller_icon {
+        height: 0;
+    }
+}
+@media only screen and (max-width:342px) {
+    #seller .row #seller_content .seller_text .seller_icon {
+        top: 28%;
     }
 }
 @media only screen and (max-width:285px) {
