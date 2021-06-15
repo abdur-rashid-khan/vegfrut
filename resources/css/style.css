@@ -269,10 +269,10 @@ header .mane_menu .lg_menu #myNav .overlay_content{
     display: grid;
     margin-top: 3rem;
 }
-header .mane_menu .lg_menu #myNav .overlay_content a{
-    line-height: 2.5rem;
+header .mane_menu .lg_menu #myNav .overlay_content a {
+    line-height: 4.5rem;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
