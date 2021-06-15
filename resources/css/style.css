@@ -718,16 +718,21 @@ header .mane_menu .lg_menu #closeBtn {
     visibility: visible;
 }
 #popup .popup_content .popup_bg{
-    position: relative;
+    position: absolute;
     background-color: rgb(32, 28, 28);
     padding: 5rem;
-    margin-top: 15%;
-    height: 53vh;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
 }
 #popup .popup_content .popup_bg span{
     color: #06e819;
@@ -866,12 +871,9 @@ header .mane_menu .lg_menu #closeBtn {
     }
     #popup .popup_content .popup_bg {
         height: 45vh;
-    }
+    } 
     #slide_size {
-        min-height: 73vh;
-    }
-    #slide_size {
-        min-height: 78vh;
+        min-height: 100vh;
     }
 }
 @media only screen and (max-width:375px) {
@@ -880,7 +882,7 @@ header .mane_menu .lg_menu #closeBtn {
         left: 0px;
     }
     #slide_size {
-        min-height: 71vh;
+        min-height: 100vh;
     }
     #seller .row #seller_content .seller_text .seller_icon { 
         top: 39%; 
