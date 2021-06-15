@@ -1,4 +1,4 @@
-function openMenu(){document.getElementById('myNav').style.width="75%"}
+function openMenu(){document.getElementById('myNav').style.width="90%"}
 function closeMenu(){document.getElementById('myNav').style.width="0%"}
 // navbar
 window.addEventListener('scroll',function(){
