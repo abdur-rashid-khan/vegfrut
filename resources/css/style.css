@@ -797,9 +797,9 @@ header .mane_menu .lg_menu #closeBtn {
     #slide_size {
         min-height: 56vh;
     }
-    #popup .popup_content .popup_bg {
+    /* #popup .popup_content .popup_bg {
         height: 37vh;
-    }
+    } */
     #slide_size {
         min-height: 45vh;
     }
@@ -869,18 +869,18 @@ header .mane_menu .lg_menu #closeBtn {
     #seller .row #seller_content .seller_text .seller_icon { 
         top: 45%; 
     }
-    #popup .popup_content .popup_bg {
+    /* #popup .popup_content .popup_bg {
         height: 45vh;
-    } 
+    }  */
     #slide_size {
         min-height: 100vh;
     }
 }
 @media only screen and (max-width:375px) {
-    #popup .popup_content .popup_bg {
+    /* #popup .popup_content .popup_bg {
         height: 50vh;
         left: 0px;
-    }
+    } */
     #slide_size {
         min-height: 100vh;
     }
