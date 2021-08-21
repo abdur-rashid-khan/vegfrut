@@ -12,7 +12,7 @@ window.addEventListener('scroll',function(){
     const sec=document.querySelector('.set_time_sec .numb'); 
     let time=setInterval(function(){
         var current=new Date().getTime();
-        var launchDate=new Date("Aug 13,2021 13:59:58").getTime();
+        var launchDate=new Date("Aug 13,2022 13:59:58").getTime();
         var duration=launchDate-current;
         var days=Math.floor(duration/(1000*60*60*24));
         var hours=Math.floor((duration % (1000*60*60*24))/(1000*60*60)); 
